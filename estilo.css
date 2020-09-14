@@ -1,0 +1,129 @@
+/*###############################################################################
+#	 Copyright 2012-2014 Albert Casas Granados									#
+#																				#
+# 	 This file is part of SDirectory.											#
+#	 Written by Albert Casas Granados											#
+#	 albert.casasgranados@gmail.com												#
+#																				#
+#    SDirectory is free software: you can redistribute it and/or modify			#
+#    it under the terms of the GNU General Public License as published by		#
+#    the Free Software Foundation, either version 3 of the License, or			#
+#    (at your option) any later version.										#
+#																				#
+#    SDirectory is distributed in the hope that it will be useful,				#
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of				#
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the				#
+#    GNU General Public License for more details.								#
+#																				#
+#    You should have received a copy of the GNU General Public License			#
+#    along with SDirectory.  If not, see <http://www.gnu.org/licenses/>.		#
+#																				#
+###############################################################################*/
+
+body {
+	color: black;
+	background: #DCDCDC;
+	margin-bottom: 60%;
+	font-family: verdana;
+	font-size: 14px;
+	}
+
+h1 {
+	color: #9ACD32;
+	background: #00008B;
+	font-family: georgia;
+	}
+
+h2 {
+	color: FF0033;
+	background: #333333;
+	font-family: georgia;
+	font-size: large;
+	}
+
+h3 {
+	color: black;
+	background: #999999;
+	font-family: serif;
+	font-size: smaller;
+	font-style: italic;
+	}
+
+a {
+	color: #FF6633;
+	}
+
+p {
+	color: black;
+	}
+
+table {
+	border-collapse: colapse;
+	font-size: 12px;
+	border: 1;
+	word-break: break-all;
+	width: 100%;
+	table-layout: fixed;
+	}
+	
+th {
+	border: 1px solid white;
+	color: white;
+	background: black;
+	text-align: center;
+	padding: 3px;
+	}
+
+td {
+	border: 1px solid black;
+	text-align: center;
+	padding: 3px;
+	}
+
+.par {
+	color: black;
+	background: white;
+	}
+
+.impar {
+	color: black;
+	background: #DDFFFF;
+	}
+
+.bar {
+	font-size: smaller;
+	text-align: right;	
+	}
+
+.nota {
+	font-style: italic;
+	font-size: smaller;
+	}
+
+.version {
+	color: white;
+	font-size: smaller;
+	}
+
+li.opcion {
+	font-size: smaller;
+	color: #FF6633;
+	float: left;
+	margin: 0px 1px;
+	border: 2px solid #999999;
+	border-bottom: 3px black solid;
+	border-right: 3px black solid;
+	background: #333333; 
+	}
+
+a.opcion {
+	font-size: smaller;
+	display: block;
+	padding: 5px; 
+	}
+
+a.opcion:hover {
+	font-size: smaller;
+	color: black;
+	background: #EEEEEE;
+	}
